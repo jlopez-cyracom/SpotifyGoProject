@@ -20,8 +20,8 @@ var (
 			spotifyauth.ScopeUserReadPlaybackState,
 			spotifyauth.ScopeUserModifyPlaybackState,
 			spotifyauth.ScopeStreaming),
-		spotifyauth.WithClientID("181c70216d5f4d3d9fafc311a839b506"),
-		spotifyauth.WithClientSecret("8c83d8c2d79e494ab747563131cd4c4f"),
+		spotifyauth.WithClientID(""),
+		spotifyauth.WithClientSecret(""),
 	)
 	ch    = make(chan *spotify.Client)
 	state = "abc123"
